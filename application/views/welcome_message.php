@@ -1,7 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+</head>
 
+<body>
 <div class="container">
 
     <!-- Main component for a primary marketing message or call to action -->
