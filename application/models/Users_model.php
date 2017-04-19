@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Martin
- * Date: 19. 4. 2017
- * Time: 16:24
- */
+
+class Users_model extends CI_Model
+{
+
+    public function get_users()
+    {
+        return $this->db->get("users");
+    }
+
+}
