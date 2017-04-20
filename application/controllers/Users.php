@@ -14,6 +14,7 @@ class Users extends CI_Controller {
         $this->load->view('template/navigation');
         $this->load->view('users/index', array());
         $this->load->view('template/footer');
+        $this->load->view('users/users_js');
     }
 
     public function users_page()
